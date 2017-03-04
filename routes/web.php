@@ -106,6 +106,12 @@ Route::get('/kakheti', function ()
 });
 
 
+Route::get('/data', function () {
+    return view('insertForm');
+});
 
+Route::get('/data', 'controller@getData');
+
+Route::post('/insert','controller@insert');
 
 
