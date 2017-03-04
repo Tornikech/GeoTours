@@ -1,0 +1,94 @@
+html { 
+  background: url(images/background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.container {
+    
+    
+    overflow: auto;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    
+}
+
+body {
+  overflow: hidden;
+}
+
+
+
+#svg-map{
+  width: 73%;
+  margin:auto;
+}
+
+.ul li {
+  display: inline-block;
+  float: right;
+
+
+}
+
+.ul li a {
+  color: #F8F8FF;
+
+}
+.header {
+  width: 100%;
+  height: 90px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+
+}
+
+.slogani {
+  color: white;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-right: 20px;
+  float: right;
+  font-size: 50px;
+}
+
+.contact {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+.logo { 
+  display: inline-block;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-right: 20px;  
+  font-size: 50px;
+  
+}
+
+#pages {
+  width: 100%;
+  height: 100%;
+}
+
+
+.about-page {
+  float: right;
+  width: 40%;
+}
+
+.googlemap {
+  float: left;
+  width: 60%;
+}
+
+.about-page h3 {
+  display: block;
+  
+}
