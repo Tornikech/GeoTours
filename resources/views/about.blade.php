@@ -5,5 +5,10 @@
 </head>
 <body>
 hi
+
+<?php
+
+Print_R($regions);
+?>
 </body>
 </html>

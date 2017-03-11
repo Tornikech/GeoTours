@@ -7,7 +7,7 @@ use Illuminate\Routing\Controller as BaseController;
 use Illuminate\Foundation\Validation\ValidatesRequests;
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Http\Request;
-use DB;
+use app\Regions;
 
 class Controller extends BaseController
 {
@@ -23,6 +23,7 @@ class Controller extends BaseController
     	$data =array('regionName'=>$regionName,"regionCity"=>$regionCity, "aboutTours"=>$aboutTours,"aboutPlace"=>$aboutPlace);
 
     	DB::table('regioninfo')->insert($data);
+
     	echo "success";
 
            
@@ -33,7 +34,7 @@ class Controller extends BaseController
 
     function getData()
     {
-    	$data['data'] = DB::table('users')->get();
+    	$data['data'] = DB::table('regionInfo')->get();
     	if (count($data) > 0)
     	{
 
