@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Tours.ge</title>
+    <title>GeoTours.ge</title>
     <link rel="stylesheet" type="text/css" href="css/app.css">
-    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">   
     <script src="js/jquery-3.1.1.min.js"></script>
     <script src="js/hover.js"></script>
-
+    
 
 </head>
 <body >
-    <div class=".container">
+    <div class="container">
     <div class="header">
     <div class="logo">
 
@@ -39,8 +39,11 @@
 </g>
 </svg>
 
-
+        
     </div>
+
+
+
         <div class="slogani">
         <h1>Check Georgia With Us</h1>
         </div>
@@ -556,7 +559,7 @@
 <g>
     <text transform="matrix(1 0 0 1 117.9897 77.9463)" class="st3 st4 st5  afxazeti" >    აფხაზეთი</text>
     <g>
-
+    
         <text class="shida-qartli st3 st4 st5" transform="matrix(1 0 0 1 553.272 329.698)" ; >შიდა-ქართლი</text>
     </g>
     <g>
@@ -577,7 +580,7 @@
 
 </div>
 
-</div>
+</div>    
 <div class="ul">
 <ul>
   <li class="contact"><a href="contact">Contact</a></li>

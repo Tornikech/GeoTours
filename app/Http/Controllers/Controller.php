@@ -22,8 +22,10 @@ class Controller extends BaseController
 
     	$data =array('regionName'=>$regionName,"regionCity"=>$regionCity, "aboutTours"=>$aboutTours,"aboutPlace"=>$aboutPlace);
 
-    	DB::table('users')->insert($data);
+    	DB::table('regioninfo')->insert($data);
     	echo "success";
+
+           
     }
 
 

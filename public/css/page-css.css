@@ -1,0 +1,113 @@
+body {
+	background-color: #FFFFFF;
+	font-family: 'HelveticaNeueLTStd-Roman';
+}
+
+#pages {
+	
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	right: 0;
+
+
+}
+
+.googlemap {
+	float: left;
+	width: 58%;
+	height: 100%;
+	padding-right: 20px;
+	
+
+
+}
+
+.about-page {
+	float: right;
+	width: 40%;
+	height: 100%;
+	position: relative;
+	overflow-x: hidden;
+	overflow-y: auto;
+
+	
+
+}
+
+.region {	
+	
+	padding-bottom: 5%;
+	
+
+}
+
+
+.place {
+	padding-bottom: 5%;
+	
+	
+
+}
+
+
+.tour  {
+	padding-bottom: 5%;
+	
+
+
+}
+
+
+.gallery {
+	padding-bottom: 5%;
+	overflow: hidden;
+	
+	position: relative;
+}
+
+.region h3 {
+	color: #356142;
+	font-size: 20px;
+	padding-bottom: 10px;
+}
+
+.region h4 {
+	color: #356142;
+	font-size: 15px;
+	padding-bottom: 5px;
+}
+
+.tour h3 {
+	color: #356142;
+	font-size: 20px;
+	padding-bottom: 10px;
+}
+
+.place  h3 {
+	color: #356142;
+	font-size: 20px;
+	padding-bottom: 10px;
+}
+
+.gallery  h3 {
+	color: #356142;
+	font-size: 20px;
+	height: 
+	
+}
+
+.gallery:hover {
+	overflow: visible;
+	position: absolute;
+	height:auto;
+
+}
+.logo { 
+position: absolute;
+z-index:1;
+left: 20px;
+top: 40px;
+  }
+

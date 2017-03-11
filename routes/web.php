@@ -114,4 +114,30 @@ Route::get('/data', 'controller@getData');
 
 Route::post('/insert','controller@insert');
 
+Route::get('/auth','Adminauth\AuthController@showLoginForm');
+Route::post('/login','Adminauth\AuthController@login');
 
+
+Route::group(['middleware'=>['admin']], function()
+	{
+		Route::get('/dashboard', 'Admin\AdminController@dashboard');
+		Route::get('/logout', 'AdminController@logout');
+	});
+
+
+Route::get('admin', 'Controller@getData');
+
+
+Route::post('/insert', 'Controller@insert');
+
+
+Route::post('/insert','Controller@insert');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index');
+
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index');
