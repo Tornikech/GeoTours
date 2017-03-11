@@ -4,6 +4,10 @@
 	<title>Contact</title>
 </head>
 <body>
-form
+<?php
+
+Print_R($contacts);
+?>
+
 </body>
 </html>

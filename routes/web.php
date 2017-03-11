@@ -25,13 +25,22 @@ Route::get('/about', function ()
 {
 	return view('about');
 
+
 });
+
+Route::get('/about', 'RegioninfoController@regions');
+
+
+
 
 Route::get('/contact', function ()
 {
 	return view('contact');
 
 });
+
+
+Route::get('/contact', 'ContactinfoController@contacts');
 
 
 Route::get('/samegrelo-Zsvaneti', function ()
