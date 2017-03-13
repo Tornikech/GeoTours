@@ -6,9 +6,7 @@
 <body>
 hi
 
-<?php
+{{$regions->regionName}};
 
-Print_R($regions);
-?>
 </body>
 </html>

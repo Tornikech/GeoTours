@@ -10,7 +10,7 @@ html {
     
     
     overflow: auto;
-    position: absolute;
+    position: fixed;
     top: 0px;
     left: 0px;
     right: 0px;
@@ -20,6 +20,7 @@ html {
 
 body {
   overflow: hidden;
+  font-family: 'HelveticaNeueLTStd-Roman';
 }
 
 
@@ -29,14 +30,22 @@ body {
   margin:auto;
 }
 
-.ul li {
-  display: inline-block;
-  float: right;
+.footer {
+  position: relative;
+}
+
+
+.footer li {
+  position: absolute;
+  
+  right: 0;
+  bottom: 0;
+  top: 0 ;
 
 
 }
 
-.ul li a {
+.footer li a {
   color: #F8F8FF;
 
 }

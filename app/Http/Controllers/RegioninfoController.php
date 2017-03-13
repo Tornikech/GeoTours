@@ -12,11 +12,11 @@ use App\Regions;
 
 class RegioninfoController extends Controller
 {
-    public function regions() {
+    public function regions($id) {
 
-    	$regions=Regions::all();
+    	$regions=Regions::find($id);
 
-    	return view('about')->with ('regions', $regions);
+    	return view('regions')->with ('regions', $regions);
 
 
     }

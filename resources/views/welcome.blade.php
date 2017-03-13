@@ -557,23 +557,23 @@
 </g>
 
 <g>
-    <text transform="matrix(1 0 0 1 117.9897 77.9463)" class="st3 st4 st5  afxazeti" >    აფხაზეთი</text>
+    <text transform="matrix(1 0 0 1 117.9897 77.9463)" class="st3 st4 st5  afxazeti" >   Afxazeti</text>
     <g>
     
-        <text class="shida-qartli st3 st4 st5" transform="matrix(1 0 0 1 553.272 329.698)" ; >შიდა-ქართლი</text>
+        <text class="shida-qartli st3 st4 st5" transform="matrix(1 0 0 1 553.272 329.698)" ; >Shida-Qartli</text>
     </g>
     <g>
-        <text id="XMLID_242_" class="samegrelo-text" transform="matrix(1 0 0 1 284.1182 240.1704)"><tspan x="0" y="0" class="st3 st4 st5" ;>სამეგრელო </tspan><tspan x="-6.4" y="16" class="st3 st4 st5 " ;>ზემო-სვანეთი</tspan></text>
+        <text id="XMLID_242_" class="samegrelo-text" transform="matrix(1 0 0 1 284.1182 240.1704)"><tspan x="0" y="0" class="st3 st4 st5" ;>Samegrelo</tspan><tspan x="-6.4" y="16" class="st3 st4 st5 " ;>Zemo-Svaneti</tspan></text>
     </g>
-    <text transform="matrix(1 0 0 1 312.082 416.2415)" class="st3 st4 st5 adjara" ;>აჭარა</text>
-    <text transform="matrix(1 0 0 1 325.0771 350.1326)" class="st3 st4 st5  guria ";>გურია</text>
-    <text transform="matrix(1 0 0 1 420.0771 325.1326)" class="st3 st4 st5 imereti";>იმერეთი</text>
-    <text transform="matrix(1 0 0 1 627.0771 461.1326)" class="st3 st4 st5 qvemo-qartli ";>ქვემო-ქართლი</text>
-    <text transform="matrix(1 0 0 1 713.0776 275.1326)"><tspan x="0" y="0" class="st3 st4 st5 mcxeta-mtianeti ">მცხეთა-</tspan><tspan x="0" y="16" class="st3 st4 st5  mcxeta-mtianeti ";>მთიანეთი</tspan></text>
-    <text transform="matrix(1 0 0 1 871.0776 401.1326)" class="st3 st4 st5 kakheti " ;>კახეთი</text>
-    <text transform="matrix(1 0 0 1 415.0771 200.1326)"><tspan x="0" y="0" class="st3 st4 st5 racha";>რაჭა-ლეჩხუმი</tspan><tspan x="0" y="16" class="st3 st4 st5 racha";>ქვემო-სვანეთი</tspan></text>
+    <text transform="matrix(1 0 0 1 312.082 416.2415)" class="st3 st4 st5 adjara" ;>Adjara</text>
+    <text transform="matrix(1 0 0 1 325.0771 350.1326)" class="st3 st4 st5  guria ";>Guria</text>
+    <text transform="matrix(1 0 0 1 420.0771 325.1326)" class="st3 st4 st5 imereti";>Imereti</text>
+    <text transform="matrix(1 0 0 1 627.0771 461.1326)" class="st3 st4 st5 qvemo-qartli ";>Qvemo-Qartli</text>
+    <text transform="matrix(1 0 0 1 713.0776 275.1326)"><tspan x="0" y="0" class="st3 st4 st5 mcxeta-mtianeti ">Mcxeta-</tspan><tspan x="0" y="16" class="st3 st4 st5  mcxeta-mtianeti ";>Mtianeti</tspan></text>
+    <text transform="matrix(1 0 0 1 871.0776 401.1326)" class="st3 st4 st5 kakheti " ;>Kakheti</text>
+    <text transform="matrix(1 0 0 1 415.0771 200.1326)"><tspan x="0" y="0" class="st3 st4 st5 racha";>Racha-Lechxumi</tspan><tspan x="0" y="16" class="st3 st4 st5 racha";>Qvemo-Qartli</tspan></text>
     <g>
-        <text id="XMLID_243_" transform="matrix(1 0 0 1 478.0058 443.1761)"><tspan x="0" y="0" class="st3 st4 st5 samcxe-javaxeti ";>სამცხე</tspan><tspan x="0" y="16" class="st3 st4 st5 samcxe-javaxeti"  >ჯავახეთი</tspan></text>
+        <text id="XMLID_243_" transform="matrix(1 0 0 1 478.0058 443.1761)"><tspan x="0" y="0" class="st3 st4 st5 samcxe-javaxeti ";>Samckhe</tspan><tspan x="0" y="16" class="st3 st4 st5 samcxe-javaxeti"  >Javakheti</tspan></text>
     </g>
 </g>
 </svg>
@@ -581,7 +581,7 @@
 </div>
 
 </div>    
-<div class="ul">
+<div class="footer">
 <ul>
   <li class="contact"><a href="contact">Contact</a></li>
   <li class="about"><a href="about">About</a></li>
