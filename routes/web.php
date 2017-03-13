@@ -15,7 +15,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/regions/{id}', 'RegioninfoController@regions');
+Route::get('/regions/{regionName}', 'RegioninfoController@regions');
 
 Route::get('/about', function ()
 {
@@ -24,7 +24,7 @@ Route::get('/about', function ()
 
 });
 // es route aris bazashi rom miwvde columns
-Route::get('/about/{id}', 'RegioninfoController@regions');  
+Route::get('/about/{regionName}', 'RegioninfoController@regions');  
 
 
 
@@ -72,6 +72,10 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index');
 
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index');
 
 Auth::routes();
 

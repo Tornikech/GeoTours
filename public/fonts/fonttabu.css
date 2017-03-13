@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'TABU';
+  src: url('TABU-TRIALBOLD.eot');
+  src: url('TABU-TRIALBOLD.woff2') format('woff2'),
+       url('TABU-TRIALBOLD.woff') format('woff'),
+       url('TABU-TRIALBOLD.ttf') format('truetype'),
+       url('TABU-TRIALBOLD.svg#TABU-TRIALBOLD') format('svg'),
+       url('TABU-TRIALBOLD.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+

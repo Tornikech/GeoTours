@@ -75,22 +75,24 @@
 
     <div class="about-page">
     <div class="region">
-      <h3>About Region </h3>
-      <h4>capital: {{$regions->regionName}}</h4>
+      <h2>About Region </h2>
+      <h3>{{$regions->regionName}}</h3>
+      <p>capital: {{$regions->regionCity}}</p>
     </div>
 
     <div class="tour">
-      <h3>About Tours</h3>
-       <p>{{$regions->aboutPlace}}</p>
+      <h2>About Tours</h2>
+       <p>{{$regions->aboutTours}}</p>
     </div>
 
     <div class="place">
-      <h3>About Places</h3>
-       <p></p>
+      <h2>About Places</h2>
+
+       <p>{{$regions->aboutPlace}}</p>
     </div>
 
     <div class="gallery">
-      <h3>Image Gallery</h3>
+      <h2>Image Gallery</h2>
         <img src="{{url('/css/images/background.jpg')}}">
     </div>
 
