@@ -3,6 +3,9 @@
   <head>
   <link rel="stylesheet" type="text/css" href="{{url('/css/page-css.css')}}">
     <link rel="stylesheet" type="text/css" href="{{url('/css/reset.css')}}"> 
+     <link rel="stylesheet" type="text/css" href="{{url('/fonts/font.css')}}">
+       <script src="{{url('js/jquery-3.1.1.min.js')}}"></script>
+        <script src="{{url('js/hover.js')}}"></script>
     
 
 <div id="pages">
@@ -93,7 +96,10 @@
 
     <div class="gallery">
       <h2>Image Gallery</h2>
-        <img src="{{url('/css/images/background.jpg')}}">
+        <img src="{{url('/css/images/background.jpg')}}" width="150" height="100" >
+         <img src="{{url('/css/images/background.jpg')}}" width="150" height="100" >
+          <img src="{{url('/css/images/background.jpg')}}" width="150" height="100" >
+           <img src="{{url('/css/images/background.jpg')}}" width="150" height="100" >
     </div>
 
     </div>

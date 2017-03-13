@@ -37,27 +37,6 @@
 
 <center>
 			
-	<table>
-		<tr>
-			<td>regionName</td>
-			<td>regionCity</td>
-			<td>aboutTours</td>
-			<td>aboutPlace</td>
-		</tr>
-		@foreach($data as $value)
-<tr>
-			<td>{{ $value->regionName }}</td>
-			<td>{{ $value->regionCity }}</td>
-			<td>{{ $value->aboutTours }}</td>
-			<td>{{ $value->aboutPlace }}</td>
-			<td><a href=""><button>Edit</button></a>&nbsp;</td>
-		</tr>
-
-
-
-		</center>
-</table>
-@endforeach
 
 </body>
 </html>

@@ -22,6 +22,16 @@
     });
 
 
+     $("#shida-qartli2").mouseover(function() {
+        $(".shida-qartli").fadeIn(1);
+
+    });
+    $("#shida-qartli2").mouseout(function() {
+        $(".shida-qartli").fadeOut(1);
+
+    });
+
+
     $("#afxazeti").mouseover(function() {
         $(".afxazeti").fadeIn(1);
 
@@ -114,6 +124,9 @@
         $(".qvemo-qartli").fadeOut(1);
    
     });
+
+
+    
      });
 
 

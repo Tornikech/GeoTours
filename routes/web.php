@@ -27,14 +27,7 @@ Route::get('/about', function ()
 Route::get('/about/{regionName}', 'RegioninfoController@regions');  
 
 
-
-
-Route::get('/contact', function ()
-{
-	return view('contact');
-
-});
-
+	
 
 Route::get('/contact', 'ContactinfoController@contacts');
 
@@ -80,3 +73,7 @@ Route::get('/home', 'HomeController@index');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index');
+
+Route::get('contact-us', 'ContactUSController@contactUS');
+
+Route::post('contact-us', ['as'=>'contactus.store','uses'=>'ContactUSController@contactUSPost']);
