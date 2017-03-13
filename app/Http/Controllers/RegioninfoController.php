@@ -8,6 +8,7 @@ use Illuminate\Foundation\Validation\ValidatesRequests;
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Http\Request;
 use App\Regions;
+use App\googlemap;
 
 
 class RegioninfoController extends Controller
@@ -15,8 +16,17 @@ class RegioninfoController extends Controller
     public function regions($regionName) {
 
     	$regions=Regions::find($regionName);
+    
 
-    	return view('regions')->with ('regions', $regions);
+
+
+ $googlemap=googlemap::where('regioninfo_id',$regionName)->get();
+
+
+
+
+    	return view('regions')->with (['regions'=> $regions, 'googlemap' => $googlemap]);
+
 
 
     }

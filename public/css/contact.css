@@ -1,10 +1,66 @@
-body{
-
-  background: url(images/background.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-
-  font-family: 'HelveticaNeueLTStd-Roman';
+body {
+	background-color: #FFFFFF;
+	font-family: 'HelveticaNeueLTStd-Roman';
 }
+
+.contactuspage {
+	position: fixed;
+	right: 0;
+	text-align: auto;
+	width: 39%;
+	height: 50%;
+
+}
+
+.contactuspage h1 {
+	font-size: 30px;
+	color:  #197b3e;
+	text-align: center;
+	padding-bottom: 30px;
+	padding-top: 10px;
+
+}
+.form-group input, textarea{
+	 width: 100%;
+    padding: 12px;  
+    border: 3px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical ;
+   	
+}
+
+.form-group{
+	color:  #197b3e;
+}
+
+.text-danger {
+	color:  #197b3e;
+}
+
+.form-group button {
+    background-color: #197b3e;
+    
+    padding: 12px 20px;
+   
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+
+.googlemap {
+	width: 60%;
+	height: 50%;
+	position: fixed;
+
+}
+
+.logo { 
+position: absolute;
+z-index:1;
+left: 20px;
+top: 40px;
+  }

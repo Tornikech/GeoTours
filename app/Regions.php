@@ -9,5 +9,11 @@ class Regions extends Model
     protected $table ="regioninfo";
 
 
+	public function googlemap() {
+
+		return $this->hasMany('App\googlemap');
+	}
+	
+
     public $timestaps = false;
 }

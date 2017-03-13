@@ -10,5 +10,10 @@ class ContactUS extends Model
   public $table = 'contactus';
 
 	public $fillable = ['name','email','message'];
+
+	public function googlemap() {
+
+		return $this->hasMany('App\googlemap');
+	}
 	
 }

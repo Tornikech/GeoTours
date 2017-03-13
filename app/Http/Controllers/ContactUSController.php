@@ -3,14 +3,22 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use DB;
-
+use App\googlemap;
+use App\ContactUS;
 class ContactUSController extends Controller
 {
    public function contactUS()
     {
-        return view('contactUS');
-    }
+        
+        
+
+    
+
+ $googlemap=googlemap::where('regioninfo_id',10)->get();
+
+
+    return view('contactUs')->with ('googlemap' , $googlemap);
+}
 
     /**
      * Show the application dashboard.
@@ -27,6 +35,7 @@ class ContactUSController extends Controller
 
         ContactUS::create($request->all());
 
+       
         return back()->with('success', 'Thanks for contacting us!');
     }
 }

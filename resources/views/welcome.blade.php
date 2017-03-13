@@ -2,12 +2,12 @@
 <html>
 <head>
     <title>GeoTours.ge</title>
-    <link rel="stylesheet" type="text/css" href="css/app.css">
-    <link rel="stylesheet" type="text/css" href="css/reset.css">   
+    <link rel="stylesheet" type="text/css" href={{url('/css/app.css')}}>
+    <link rel="stylesheet" type="text/css" href={{url('css/reset.css')}}>   
     <script src="js/jquery-3.1.1.min.js"></script>
     <script src="js/hover.js"></script>
-    <link rel="stylesheet" type="text/css" href="../fonts/fonttabu.css">
-    <link rel="stylesheet" type="text/css" href="../fonts/font.css">
+    <link rel="stylesheet" type="text/css" href={{url('../fonts/fonttabu.css')}}>
+    <link rel="stylesheet" type="text/css" href={{url('../fonts/font.css')}}>
     
 
 </head>
@@ -15,7 +15,6 @@
     <div class="container">
     <div class="header">
     <div class="logo">
-
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
   " xml:space="preserve">
 <style type="text/css">
@@ -41,7 +40,6 @@
 </g>
 </svg>
 
-        
     </div>
 
 

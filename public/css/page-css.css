@@ -68,36 +68,45 @@ body {
 }
 
 .region h2 {
-	color: #356142;
+	color: #197b3e;
 	font-size: 20px;
 	padding-bottom: 10px;
 }
 
 .region h3 {
-	color: #356142;
+	color: #197b3e;
 	font-size: 20px;
 	padding-bottom: 5px;
 }
 .region p {
-	color: #356142;
+	
 	font-size: 15px;
 	padding-bottom: 5px;
 }
 
+
+.region h4{
+	color: #197b3e;
+	font-size: 15px;
+	padding-bottom: 5px;
+
+}
+
+
 .tour h2 {
-	color: #356142;
+	color: #197b3e;
 	font-size: 20px;
 	padding-bottom: 10px;
 }
 
 .place  h2 {
-	color: #356142;
+	color: #197b3e;
 	font-size: 20px;
 	padding-bottom: 10px;
 }
 
 .gallery  h2 {
-	color: #356142;
+	color: #197b3e;
 	font-size: 20px;
 	height: 
 	

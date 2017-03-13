@@ -14,8 +14,8 @@
 Route::get('/', function () {
     return view('welcome');
 });
-
-Route::get('/regions/{regionName}', 'RegioninfoController@regions');
+// es route aris bazashi rom miwvde columns
+Route::get('/regions/{id}', 'RegioninfoController@regions');
 
 Route::get('/about', function ()
 {
@@ -23,11 +23,10 @@ Route::get('/about', function ()
 
 
 });
-// es route aris bazashi rom miwvde columns
-Route::get('/about/{regionName}', 'RegioninfoController@regions');  
 
 
-	
+
+
 
 Route::get('/contact', 'ContactinfoController@contacts');
 
@@ -39,6 +38,8 @@ Route::get('/data', function () {
 });
 
 Route::get('/data', 'controller@getData');
+
+Route::get('/contact-us', 'GooglemapController@googlemap');
 
 Route::post('/insert','controller@insert');
 
