@@ -125,3 +125,22 @@ left: 20px;
 top: 40px;
   }
 
+.footer {
+position: fixed;
+    bottom: 0;
+    right: 0;
+
+    
+} 
+.footer li {
+  display: inline-block;
+  padding:20px;
+}
+
+
+
+.footer li a {
+  color: #197b3e;
+    
+
+}

@@ -13,27 +13,34 @@ body {
 }
 
 .contactuspage h1 {
-	font-size: 30px;
+	font-size: 50px;
 	color:  #197b3e;
-	text-align: center;
+	font-family: 'TABU' ;
+	
 	padding-bottom: 30px;
 	padding-top: 10px;
+
 
 }
 .form-group input, textarea{
 	 width: 100%;
     padding: 12px;  
-    border: 3px solid #ccc;
-    border-radius: 4px;
+   
     box-sizing: border-box;
     margin-top: 6px; 
     margin-bottom: 16px; 
     resize: vertical ;
-   	
+    background-color: 	#d2e9d1;
+    margin-right: 200px;
+    border: transparent;
+    
 }
 
 .form-group{
 	color:  #197b3e;
+	
+	
+	
 }
 
 .text-danger {
@@ -41,13 +48,15 @@ body {
 }
 
 .form-group button {
-    background-color: #197b3e;
-    
-    padding: 12px 20px;
    
-    border-radius: 4px;
+    font-family: 'TABU' ;
+    padding: 12px 20px;
+    font-size: 15px;
     cursor: pointer;
+    background-color: #00b300;
 }
+
+
 
 
 
@@ -63,4 +72,11 @@ position: absolute;
 z-index:1;
 left: 20px;
 top: 40px;
+  }
+
+
+  .contactform {
+  	position: fixed;
+  	 
+ 
   }

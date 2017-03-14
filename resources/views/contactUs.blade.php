@@ -6,6 +6,7 @@
 	<link rel="stylesheet" type="text/css" href={{url('/css/contact.css')}}>
 	 <link rel="stylesheet" type="text/css" href={{url('/fonts/font.css')}}>
 	 <link rel="stylesheet" type="text/css" href={{url('/css/reset.css')}}>
+	 <link rel="stylesheet" type="text/css" href={{url('../fonts/fonttabu.css')}}>
 </head>
 <body>
 
@@ -78,7 +79,8 @@ var uluru = {lat:  {{$googlemap[0]['lat']}} , lng:{{$googlemap[0]['lng']}} };
 
 
 <div class="contactuspage">
-	<h1>Contact  Form</h1>
+	<h1>FOR ANY QUESTIONS</h1>
+<div class="contactform">
 
 	@if(Session::has('success'))
 	    <div class="alert alert-success">
@@ -113,6 +115,8 @@ var uluru = {lat:  {{$googlemap[0]['lat']}} , lng:{{$googlemap[0]['lng']}} };
 	{!! Form::close() !!}
 
 </div>
+</div>
+
 
 
 
